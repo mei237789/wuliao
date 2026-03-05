@@ -11,13 +11,18 @@
             padding: 0;
         }
         body {
-            background: linear-gradient(145deg, #e8f0f9 0%, #d9e6f2 100%);
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-family: 'Georgia', 'Times New Roman', '宋体', serif;
-            padding: 16px;
+    background-image: url('bg.jpg');  /* 替换为你的图片文件名 */
+    background-size: cover;      /* 铺满整个屏幕，可能裁剪图片边缘 */
+    background-position: center; /* 图片居中 */
+    background-repeat: no-repeat;/* 不平铺 */
+    background-attachment: fixed;/* 可选：让背景固定，滚动时背景不动 */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Georgia', 'Times New Roman', '宋体', serif;
+    padding: 16px;
+}
         }
         .card {
             max-width: 700px;
@@ -57,9 +62,6 @@
             text-align: center;
             margin-bottom: 32px;
             font-style: italic;
-    background-image: url('bg.jpg');   /* 替换成你的图片文件名 */
-    background-size: cover;            /* 覆盖整个区域，可能裁剪图片边缘 */
-    background-position: center;       /* 图片居中显示 */
 }
         }
         .music-box {
@@ -293,6 +295,7 @@
 </body>
 
 </html>
+
 
 
 
